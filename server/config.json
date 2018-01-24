@@ -1,0 +1,24 @@
+{
+  "restApiRoot": "/api",
+  "host": "0.0.0.0",
+  "port": 5102,
+  "remoting": {
+    "context": false,
+    "rest": {
+      "normalizeHttpPath": false,
+      "xml": false
+    },
+    "json": {
+      "strict": false,
+      "limit": "30mb"
+    },
+    "urlencoded": {
+      "extended": true,
+      "limit": "30mb"
+    },
+    "cors": false,
+    "errorHandler": {
+      "debug": false
+    }
+  }
+}
